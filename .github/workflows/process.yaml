@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: "05 03 * * *"
     - cron: "05 11 * * *"
+    # executed every day at 20:00
+  # schedule:
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 env:
