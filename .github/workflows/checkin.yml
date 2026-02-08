@@ -1,7 +1,10 @@
 name: Checkin
 on:
+  # schedule:
+  #   - cron: "45 02 * * *"
+  # executed every day at 20:00
   schedule:
-    - cron: "45 02 * * *"
+    - cron: "0 20 * * *"
   workflow_dispatch:
 
 jobs:
